@@ -1,9 +1,7 @@
-
 import {Link} from "react-router";
-import type {JSX} from "react";
 
-const Navbar:() => JSX.Element=()=>{
-    return(
+const Navbar = () => {
+    return (
         <nav className="navbar">
             <Link to="/">
                 <p className="text-2xl font-bold text-gradient">RESUMIND</p>
@@ -14,4 +12,4 @@ const Navbar:() => JSX.Element=()=>{
         </nav>
     )
 }
-export default Navbar;
+export default Navbar
